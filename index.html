@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Высотные работы без посредников,  вы платите только за работу, а не на содержание офиса, менеджеров и рекламу."
+
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon (создадим позже) -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Здесь будет контент сайта -->
+        <!-- Шапка с навигацией -->
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <!-- Логотип -->
+                    <a href="#" class="logo">
+                        <i class="fas fa-mountain"></i>
+                        <span class="logo-text">ProfessionAlp<span class="logo-accent">SPB</span></span>
+                    </a>
+                    
+                    <!-- Основное меню -->
+                    <ul class="nav-menu">
+                        <li><a href="#services"><i class="fas fa-tools"></i> Услуги</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-images"></i> Работы</a></li>
+                        <!--<li> <a href="files/price-list.xlsx" class="btn btn-outline btn-price" download>
+                            <i class="fas fa-file-excel"></i>
+                            <span class="price-text">Скачать прайс</span>-->
+                        <li><a href="#contacts"><i class="fas fa-phone"></i> Контакты</a></li>
+                    </ul>
+                    
+                    <!-- Контакты и кнопка -->
+                    <div class="header-actions">
+                        <a href="tel:+79910037689" class="phone">
+                            <i class="fas fa-phone-alt"></i>
+                            <span class="phone-number">+7 (991) 003-76-89 </span>
+                        </a>
+                        <button class="btn btn-primary" id="callButton">
+                            <i class="fas fa-phone-volume"></i>
+                            Бесплатная консультация
+                        </button>
+                    </div>
+                    
+                    <!-- Кнопка меню для мобильных -->
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </header>
+            <!-- Главная секция -->
+    <main class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="highlight">Высотные работы</span><br>
+                        в Санкт-Петербурге и Ленинградской области
+                    </h1>
+                    <p class="hero-subtitle">
+                        "Высотные работы без посредников,  вы платите только за работу, а не на содержание офиса, менеджеров и рекламу."
+
+
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">300+</span>
+                            <span class="stat-label">объектов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">гарантия</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Аварийный выезд</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                       
+                        
+
+                    
+                       
+            
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <!-- Здесь будет ваше фото -->
+                    <div class="image-frame">
+                        <img src="images/hero-photo.jpg" alt="Промышленный альпинист за работой" 
+                             onerror="this.src='https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="badge">
+                            <i class="fas fa-award"></i>
+                            <span>Работаем с 2010</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Прокрутка вниз -->
+        <a href="#services" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </main>
+           <!-- Услуги - обновленная версия -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-intro">
+                <h2 class="section-heading">Что мы делаем</h2>
+                <p class="section-description">15 лет профессионального опыта в промышленном альпинизме.<br>Работаем быстро, качественно и с гарантией.</p>
+            </div>
+            
+            <div class="services-container">
+                <!-- Услуга 1 -->
+                <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas fa-calendar "></i>
+                    </div>
+                    <h3 class="service-title">Ремонт межпаниельных швов</h3>
+                    <p class="service-text">Эффективное утепление и герметизация межпанельных швов.</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Полное вскрытие шва </span>
+                        <span class="feature"><i class="fas fa-check"></i>  Качественное трехэтапное утепление.</span>
+                        <span class="feature"><i class="fas fa-check"></i> Гарантия</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 500 р.м.п</span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Услуга 2 -->
+                <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas fa-chevron-up"></i>
+                    </div>
+                    <h3 class="service-title">Штукатурка любой сложности</h3>
+                    <p class="service-text">Штукатурные работы любой сложности, от капитального ремонта до восстановления декоративных элементов.</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Сплошная штукатукатурка зданий</span>
+                        <span class="feature"><i class="fas fa-check"></i> Декоративня штукатурка</span>
+                        <span class="feature"><i class="fas fa-check"></i> Востановление откосов и карнизов</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 600 ₽/м²</span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Услуга 3 -->
+                <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3 class="service-title">Покраска фасадов</h3>
+                    <p class="service-text">Полный цикл малярных работ с соблюдением технологии.</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Отшилушивание и грунтование</span>
+                        <span class="feature"><i class="fas fa-check"></i> Шпатлевание и зашкуривание</span>
+                        <span class="feature"><i class="fas fa-check"></i> Гидрофобизация</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 100 ₽/м²</span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Услуга 4 -->
+                <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="service-title">Монтаж и демонтаж</h3>
+                    <p class="service-text">Все виды монтажных работы .</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Установка водосточных труб и желобов</span>
+                        <span class="feature"><i class="fas fa-check"></i> Монтаж фасадной сетки</span>
+                        <span class="feature"><i class="fas fa-check"></i> Монтаж/демонтаж металлоконструкций</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 1500 ₽ </span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Услуга 5 -->
+                <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <h3 class="service-title">Сварочне работы</h3>
+                    <p class="service-text">Сварочне работы в труднодаступных местах.</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Сварочне работы в различнх положениях</span>
+                        <span class="feature"><i class="fas fa-check"></i> Защита от брызг </span>
+                        <span class="feature"><i class="fas fa-check"></i> Соблюдение норм пожарной безопасности</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 6000 ₽</span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                 <!-- Услуга 6 -->
+                 <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas footer-contacts"></i>
+                    </div>
+                    <h3 class="service-title">Мытье фасада</h3>
+                    <p class="service-text">Мойка остекления различными способами.</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Сплошная мойка остекления</span>
+                        <span class="feature"><i class="fas fa-check"></i> Выборочная мойка </span>
+                        <span class="feature"><i class="fas fa-check"></i> Мойка с применение аппарата высокого давления</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 200 р/м²</span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                 <!-- Услуга 7 -->
+                 <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas fa-ruler"></i>
+                    </div>
+                    <h3 class="service-title">Кровельные работы</h3>
+                    <p class="service-text">Восстановление кровли и обнаружение протечек.</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Герметизация и утепление кровли </span>
+                        <span class="feature"><i class="fas fa-check"></i> Кровельные ограждения </span>
+                        <span class="feature"><i class="fas fa-check"></i> Наплавление мягкой кровли</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 200 ₽/м²</span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                 <!-- Услуга 8 -->
+                 <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas fa-ruler-combined"></i>
+                    </div>
+                    <h3 class="service-title">Обследование </h3>
+                    <p class="service-text">Обследование фасада с предоставление фото и видео отчета.</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Обнаружеие протечек и промерзаний</span>
+                        <span class="feature"><i class="fas fa-check"></i> Проверка проделанной ранее работы </span>
+                        <span class="feature"><i class="fas fa-check"></i> Составление плана работ по устранению замечаний</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 3000 ₽</span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Услуга 9 -->
+                <div class="service-item">
+                    <div class="service-icon-box">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3 class="service-title">Снегоочистительные работы</h3>
+                    <p class="service-text">Удаление снега и наледи .</p>
+                    <div class="service-features">
+                        <span class="feature"><i class="fas fa-check"></i> Очитска кровли от снега</span>
+                        <span class="feature"><i class="fas fa-check"></i> Удаление сосулек </span>
+                        <span class="feature"><i class="fas fa-check"></i> Очистка водосточных желобов</span>
+                    </div>
+                    <div class="service-action">
+                        <span class="service-price">от 50 ₽/м²</span>
+                        <button class="service-button" onclick="document.getElementById('callButton').click()">
+                            Заказать
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+
+
+            
+            <div class="services-cta-box">
+                <p>Нужна другая услуга? У нас есть решение для любой высотной задачи!</p>
+                <button class="cta-button" id="servicesCallButton">
+                    <i class="fas fa-phone-alt"></i>
+                    Получить бесплатную консультацию
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-intro">
+                <h2 class="section-heading">Наши работы</h2>
+                <p class="section-description">Реальные объекты в Санкт-Петербурге. Более 500 выполненных проектов.</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Все работы</button>
+                <button class="filter-btn" data-filter="insulation">Утепление</button>
+                <button class="filter-btn" data-filter="plaster">Штукатурка</button>
+                <button class="filter-btn" data-filter="sealing">Герметизация</button>
+                <button class="filter-btn" data-filter="cleaning">Мойка</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Работа 1 -->
+                <div class="portfolio-item" data-category="insulation">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/C9110E0B-97E8-49AB-BE18-46DD9B79C990_1_105_c.jpeg" alt="Утепление фасада жилого дома" 
+                             onerror="this.src='https://images.unsplash.com/photo-1487956382158-bb926046304a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="1">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Капитальный ремонт жилого дома</h3>
+                        <p class="portfolio-location">СПб, ул. Федора абрамова.</p>
+                        <p class="portfolio-desc"> Комплекс работ по штукатурке 27 го этажа. </p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 1 месяц </span>
+                            <span class="meta-item"><i class="fas fa-ruler-combined"></i> 500 м²</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Работа 2 -->
+                <div class="portfolio-item" data-category="plaster">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/Unknown-3.jpg" alt="Штукатурка фасада бизнес-центра" 
+                             onerror="this.src='https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="2">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Уборка снега и наледи </h3>
+                        <p class="portfolio-location">СПб, Васильевский остров.</p>
+                        <p class="portfolio-desc">Удаление сосулек, очистка водосточных желобов.</p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 1 день /span>
+                            <span class="meta-item"><i class="fas fa-ruler-combined"></i> 250 м²</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Работа 3 -->
+                <div class="portfolio-item" data-category="sealing">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/Unknown-4.jpg" alt="Герметизация межпанельных швов" 
+                             onerror="this.src='https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="3">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Герметизация швов</h3>
+                        <p class="portfolio-location">СПб, Купчино</p>
+                        <p class="portfolio-desc">Полная герметизация межпанельных швов в 5-этажном жилом доме.</p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 1 неделя</span>
+                            <span class="meta-item"><i class="fas fa-ruler"></i> 500 м.п.</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Работа 4 -->
+                <div class="portfolio-item" data-category="cleaning">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/Unknown-11.jpg" alt="Мойка окон офисного здания" 
+                             onerror="this.src='https://images.unsplash.com/photo-1487956382158-bb926046304a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="4">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Мойка окон жилого дома</h3>
+                        <p class="portfolio-location">СПб, Васильевский остров</p>
+                        <p class="portfolio-desc">Комплексная мойка 120 окон на высоте до 45 метров.</p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 2 дня</span>
+                            <span class="meta-item"><i class="fas fa-window-maximize"></i> 120 окон</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Работа 5 -->
+                <div class="portfolio-item" data-category="insulation">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/2026-02-02 16.13.28.jpg " alt="Утепление коттеджа" 
+                             onerror="this.src='https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="5">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Гидроизолция кровли</h3>
+                        <p class="portfolio-location">СПБ, Невский район</p>
+                        <p class="portfolio-desc">Обследование и герметизация кровли.</p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 7 дней</span>
+                            <span class="meta-item"><i class="fas fa-ruler-combined"></i> 450 м²</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Работа 6 -->
+                <div class="portfolio-item" data-category="insulation">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/Unknown-7.jpg " alt="Утепление коттеджа" 
+                             onerror="this.src='https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="5">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Арбористика</h3>
+                        <p class="portfolio-location">СПБ, Васильевский остров</p>
+                        <p class="portfolio-desc">Частичное удаление деревьев.</p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 3 дня</span>
+                            <span class="meta-item"><i class="fas fa-ruler-combined"></i> 10 шт</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Работа 7 -->
+                <div class="portfolio-item" data-category="insulation">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/Unknown-5.jpg " alt="Утепление коттеджа" 
+                             onerror="this.src='https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="5">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Ремонт козырька балкона</h3>
+                        <p class="portfolio-location">СПБ, Петроградский район</p>
+                        <p class="portfolio-desc">Восстановление и гидроизоляция козырька балкона .</p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 5 дней</span>
+                            <span class="meta-item"><i class="fas fa-ruler-combined"></i> 4 м²</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Работа 8 -->
+                <div class="portfolio-item" data-category="insulation">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/декоративная штукатурка .jpg" alt="Утепление коттеджа" 
+                             onerror="this.src='https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="5">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Декоративная штукатурка</h3>
+                        <p class="portfolio-location"> Мурино</p>
+                        <p class="portfolio-desc">Комплекс работ по восстановлению декоративного фасада .</p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 7 дней</span>
+                            <span class="meta-item"><i class="fas fa-ruler-combined"></i> 200 м²</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Работа 6 -->
+                <div class="portfolio-item" data-category="plaster">
+                    <div class="portfolio-image">
+                        <img src="/Users/sergeybalakchin/Desktop/promalp-site/images/portfolio/Unknown-8.jpg" alt="Ремонт фасада исторического здания" 
+                             onerror="this.src='https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view" data-image="6">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Ремонт исторического фасада</h3>
+                        <p class="portfolio-location">СПБ, Петроградский район</p>
+                        <p class="portfolio-desc">Восстановление шткуатурки и декоративных элементов фасада.</p>
+                        <div class="portfolio-meta">
+                            <span class="meta-item"><i class="fas fa-calendar"></i> 14 дней </span>
+                            <span class="meta-item"><i class="fas fa-ruler-combined"></i> 500 м²</span>
+                            <span class="meta-item"><i class="fas fa-check-circle"></i> Выполнено</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <p>Хотите увидеть больше работ или обсудить ваш проект?</p>
+                <a href="#contacts" class="btn btn-primary btn-large">
+                    <i class="fas fa-comment-dots"></i>
+                    Обсудить проект
+                </a>
+            </div>
+        </div>
+        
+        <!-- Модальное окно для просмотра фото -->
+        <div class="modal" id="imageModal">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div class="modal-image-container">
+                    <img id="modalImage" src="" alt="">
+                    <div class="modal-nav">
+                        <button class="modal-prev" id="modalPrev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="modal-next" id="modalNext"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDescription"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- JavaScript в конце для быстрой загрузки -->
+<script src="script.js"></script>
+    <!-- Футер -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <!-- Верхняя часть футера -->
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-mountain"></i>
+                        <span>ProfessionAlp<span class="logo-accent">SPB</span></span>
+                    </a>
+                    <p class="footer-description">
+                        15 лет профессионального опыта в промышленном альпинизме.<br>
+                        Работаем в Санкт-Петербурге и Ленинградской области.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://wa.me/+79910037689" target="_blank" class="social-link" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://t.me/+79910037689" target="_blank" class="social-link" title="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                     
+                        <a href="https://https://web.max.ru//+79910037689" target="_blank" class="social-link" title="MAX">
+                            <i class="fab fa-viber"></i>
+                        </a>
+                        <a href="https://vk.com/ProfessionAlpSPB" target="_blank" class="social-link" title="VK">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="mailto:professionalpspb@gmail.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Контакты -->
+                <div class="footer-contacts">
+                    <h3 class="footer-title">Контакты</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt contact-icon"></i>
+                            <div>
+                                <span class="contact-label">Телефон</span>
+                                <a href="tel:+79910037689" class="contact-value">+7 (991) 003-76-89 </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:professionalpspb@gmail.com" class="contact-value">professionalpspb@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div>
+                                <span class="contact-label">Адрес</span>
+                                <span class="contact-value">г. Санкт-Петербург</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <div>
+                                <span class="contact-label">График работы</span>
+                                <span class="contact-value">24/7 • Аварийный выезд</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Форма обратной связи -->
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">Бесплатная консультация</h3>
+                    <p class="newsletter-text">
+                        <!-- Форма обратного звонка (обновленная) -->
+<div class="footer-newsletter">
+    <h3 class="footer-title">Бесплатная консультация</h3>
+    <p class="newsletter-text">
+        Оставьте номер телефона, и я перезвоню в течение 30 минут
+    </p>
+    
+    <!-- Уведомления об отправке -->
+    <div id="formNotification" class="form-notification" style="display: none;"></div>
+    
+    <!-- Форма с добавленным полем имени (опционально) -->
+    <form class="callback-form" id="callbackForm">
+        <!-- Добавим поле имени для более персонализированного подхода -->
+        <div class="form-group-full">
+            <input type="text" 
+                   class="form-input" 
+                   id="userName"
+                   name="user_name"
+                   placeholder="Ваше имя (необязательно)">
+        </div>
+        
+        <div class="form-group">
+            <input type="tel" 
+                   class="form-input" 
+                   id="userPhone"
+                   name="user_phone"
+                   placeholder="+7 (___) ___-__-__"
+                   required
+                   pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                   title="Формат: +7 (999) 999-99-99">
+            <button type="submit" class="form-button" id="submitBtn">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        
+        <!-- Индикатор загрузки -->
+        <div class="form-loading" id="formLoading" style="display: none;">
+            <i class="fas fa-spinner fa-spin"></i> Отправка...
+        </div>
+        
+        <div class="form-agreement">
+            <input type="checkbox" id="agreement" required checked>
+            <label for="agreement">
+                Согласен на обработку персональных данных
+            </label>
+        </div>
+    </form>
+</div>
+                                Согласен на обработку персональных данных
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Разделительная линия -->
+            <div class="footer-divider"></div>
+            
+            <!-- Нижняя часть футера -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2026 ProfessionAlpSPB.</p>
+                    <p>Официальная работа с договором и гарантией</p>
+                </div>
+                
+                <div class="footer-bottom-links">
+                    <a href="#" class="footer-link">Политика конфиденциальности</a>
+                    <!--<a href="#" class="footer-link">Договор-оферта</a>-->>
+                    <a href="#" class="footer-link">Карта сайта</a>
+                </div>
+                
+                <div class="payment-methods">
+                    <span class="payment-text">Принимаем к оплате:</span>
+                    <div class="payment-icons">
+                        <i class="fab fa-cc-visa" title="Visa"></i>
+                        <i class="fab fa-cc-mastercard" title="MasterCard"></i>
+                        <i class="fab fa-cc-mir" title="МИР"></i>
+                        <i class="fas fa-money-bill-wave" title="Наличные"></i>
+                   
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Кнопка "Наверх" -->
+            <button class="back-to-top" id="backToTop">
+                <i class="fas fa-chevron-up"></i>
+            </button>
+        </div>
+    </footer>
+    <!-- EmailJS SDK -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>
+
