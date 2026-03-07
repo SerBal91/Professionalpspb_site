@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Указываем путь к карте сайта
+Sitemap: https://professionalpspb.ru/
+
+# Запрещаем индексацию служебных страниц (если есть)
+# Disallow: /admin/
+# Disallow: /private/
